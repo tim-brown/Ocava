@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.ocadotechnology</groupId>
+    <groupId>io.github.tim-brown</groupId>
     <artifactId>OcavaParent</artifactId>
 
     <version>0-SNAPSHOT</version>
@@ -13,7 +13,7 @@
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Ocava is a Java library that helps facilitate the creation and testing of simulations.</description>
-    <url>https://github.com/ocadotechnology/Ocava</url>
+    <url>https://github.com/tim-brown/Ocava</url>
 
     <licenses>
         <license>
@@ -27,7 +27,7 @@
         <developer>
             <name>Ocado Simulation</name>
             <organization>Ocado</organization>
-            <organizationUrl>https://github.com/ocadotechnology/Ocava</organizationUrl>
+            <organizationUrl>https://github.com/tim-brown/Ocava</organizationUrl>
         </developer>
     </developers>
 
@@ -119,7 +119,7 @@
         <dependencies>
             <!-- Import our own Bill of Materials  -->
             <dependency>
-                <groupId>com.ocadotechnology</groupId>
+                <groupId>io.github.tim-brown</groupId>
                 <artifactId>ocava-open-source-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -312,13 +312,13 @@
 
     <scm>
         <connection>
-            scm:git:git@github.com:ocadotechnology/Ocava.git
+            scm:git:git@github.com:tim-brown/Ocava.git
         </connection>
         <developerConnection>
-            scm:git:git@github.com:ocadotechnology/Ocava.git
+            scm:git:git@github.com:tim-brown/Ocava.git
         </developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/ocadotechnology/Ocava</url>
+        <url>https://github.com/tim-brown/Ocava</url>
     </scm>
 
     <build>

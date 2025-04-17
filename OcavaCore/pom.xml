@@ -5,7 +5,7 @@
     <artifactId>OcavaCore</artifactId>
 
     <parent>
-        <groupId>com.ocadotechnology</groupId>
+        <groupId>io.github.tim-brown</groupId>
         <artifactId>OcavaParent</artifactId>
         <version>0-SNAPSHOT</version>
     </parent>
