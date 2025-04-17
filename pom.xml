@@ -555,7 +555,7 @@
                                     <goal>sign</goal>
                                 </goals>
                                 <configuration>
-                                    <keyname>9272F1A5EF012E0ED15709CA7DA5608BAAD629A3</keyname>
+					<!-- <keyname>9272F1A5EF012E0ED15709CA7DA5608BAAD629A3</keyname> -->
                                     <gpgArguments>
                                         <arg>--pinentry-mode</arg>
                                         <arg>loopback</arg>
@@ -581,7 +581,10 @@
                 <enabled>false</enabled>
             </snapshots>
             <name>bintray</name>
+	    <!--
             <url>https://dl.bintray.com/cbeust/maven</url>
+	    -->
+		    <url>https://repo1.maven.org/maven2</url>
         </repository>
     </repositories>
 
