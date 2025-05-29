@@ -78,31 +78,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>ossrh</id>
-            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-	<!--
-        <repository>
-            <id>central</id>
-            <name>Ocada Cross Stream Releases</name>
-            <url>https://nexus.ocado.tech/repository/shared-maven-releases</url>
-        </repository>
-	-->
-        <snapshotRepository>
-            <id>central</id>
-            <name>Ocada Cross Stream Snapshots</name>
-            <url>https://nexus.ocado.tech/repository/shared-maven-snapshots</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
-        <site>
-            <id>ocado-maven-nexus</id>
-            <!-- The site is not deployed using maven, but site:stage requires the distribution information -->
-            <url>
-                http://fake/site
-            </url>
-        </site>
-    </distributionManagement>
 </project>
