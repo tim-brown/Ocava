@@ -576,7 +576,7 @@
 
     <repositories>
         <repository>
-            <id>bintray</id>
+            <id>ossrh</id>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
