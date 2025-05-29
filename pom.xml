@@ -576,16 +576,18 @@
 
     <repositories>
         <repository>
-            <id>ossrh</id>
+            <id>bintray</id>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
             <name>bintray</name>
 	    <!--
             <url>https://dl.bintray.com/cbeust/maven</url>
-		    <url>https://repo1.maven.org/maven2</url>
 	    -->
+		    <url>https://repo1.maven.org/maven2</url>
+	    <!--
             <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+	    -->
         </repository>
     </repositories>
 
