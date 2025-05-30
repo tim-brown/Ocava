@@ -540,7 +540,7 @@
 			<version>${central-publishing-maven-plugin.version}</version>
                         <extensions>true</extensions>
                         <configuration>
-                            <publishingServerId>central</serverId>
+                            <publishingServerId>central</publishingServerId>
 			    <!-- Ocado artifact will probably want this to be true -->
                             <autoPublish>false</autoPublish>
                         </configuration>
