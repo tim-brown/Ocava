@@ -76,18 +76,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-                    <plugin>
-			    <!-- following instructions in:https://central.sonatype.org/publish/publish-portal-maven/ -->
-                        <groupId>org.sonatype.central</groupId>
-                        <artifactId>central-publishing-maven-plugin</artifactId>
-			<version>${central-publishing-maven-plugin.version}</version>
-                        <extensions>true</extensions>
-                        <configuration>
-                            <publishingServerId>central</publishingServerId>
-			    <!-- Ocado artifact will probably want this to be true -->
-                            <autoPublish>true</autoPublish>
-                        </configuration>
-                    </plugin>
         </plugins>
     </build>
 
