@@ -41,5 +41,5 @@ jobs:
           ossrh_login: ${{ secrets.ossrh_login }}
           ossrh_pass: ${{ secrets.ossrh_pass }}
         run: |
-          mvn -B versions:set -DnewVersion="${{ github.event.release.tag_name }}"
+          mvn -X -B versions:set -DnewVersion="${{ github.event.release.tag_name }}"
           mvn -B -s .mvn/settings.xml -P release deploy --file pom.xml
