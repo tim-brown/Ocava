@@ -50,16 +50,16 @@
         <jcommander.version>1.82</jcommander.version>
 
         <slf4j-api.version>2.0.17</slf4j-api.version>
-        <junit-jupiter.version>5.11.4</junit-jupiter.version>
-        <junit-platform-engine.version>1.11.4</junit-platform-engine.version>
+        <junit-jupiter.version>5.12.0</junit-jupiter.version>
+        <junit-platform-engine.version>1.12.0</junit-platform-engine.version>
         <maven-surefire-plugin.version>3.5.3</maven-surefire-plugin.version>
         <assertj.version>3.27.3</assertj.version>
         <mockito.version>5.17.0</mockito.version>
         <jfreechart.version>1.5.5</jfreechart.version>
         <source.plugin.version>3.0.0</source.plugin.version>
-        <aws-java-sdk-s3.version>1.12.782</aws-java-sdk-s3.version>
-        <jackson-databind.version>2.18.3</jackson-databind.version>
-        <jackson-dataformat-cbor.version>2.18.3</jackson-dataformat-cbor.version>
+        <aws-java-sdk-s3.version>1.12.783</aws-java-sdk-s3.version>
+        <jackson-databind.version>2.19.0</jackson-databind.version>
+        <jackson-dataformat-cbor.version>2.19.0</jackson-dataformat-cbor.version>
         <disruptor.version>4.0.0</disruptor.version>
         <logback-classic.version>1.5.18</logback-classic.version>
         <jmh.version>1.37</jmh.version>
@@ -69,10 +69,10 @@
         <jaxb.version>2.3.1</jaxb.version>
         <!-- Static Analysis Plugin Versions -->
         <checkstyle-fail-on-violation>false</checkstyle-fail-on-violation>
-        <checkstyle.version>10.23.0</checkstyle.version>
+        <checkstyle.version>10.23.1</checkstyle.version>
         <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
         <license-maven-plugin.version>2.5.0</license-maven-plugin.version>
-        <mycila-license-maven-plugin.version>4.6</mycila-license-maven-plugin.version>
+        <mycila-license-maven-plugin.version>5.0.0</mycila-license-maven-plugin.version>
 
         <!-- JavaDoc Plugin Version -->
         <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
