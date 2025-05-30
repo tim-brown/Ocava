@@ -91,6 +91,27 @@
         </plugins>
     </build>
 
+    <profiles>
+	    <profile>
+		    <id>release</id>
+		    <activation><activeByDefault>false</activeByDefault></activation>
+                <plugins>
+                    <plugin>
+			    <!-- following instructions in:https://central.sonatype.org/publish/publish-portal-maven/ -->
+                        <groupId>org.sonatype.central</groupId>
+                        <artifactId>central-publishing-maven-plugin</artifactId>
+			<version>0.7.0</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <publishingServerId>central</publishingServerId>
+			    <!-- Ocado artifact will probably want this to be true -->
+                            <autoPublish>true</autoPublish>
+                        </configuration>
+                    </plugin>
+		</plugins>
+	    </profile>
+    </profiles>
+
 	    <!--
     <distributionManagement>
         <repository>
