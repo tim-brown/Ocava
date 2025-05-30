@@ -83,6 +83,7 @@
 	    <profile>
 		    <id>release</id>
 		    <activation><activeByDefault>false</activeByDefault></activation>
+		    <build>
                 <plugins>
                     <plugin>
 			    <!-- following instructions in:https://central.sonatype.org/publish/publish-portal-maven/ -->
@@ -97,6 +98,7 @@
                         </configuration>
                     </plugin>
 		</plugins>
+	</build>
 	    </profile>
     </profiles>
 
