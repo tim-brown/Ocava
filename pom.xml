@@ -87,7 +87,7 @@
         <spotbugs-annotations.version>4.9.3</spotbugs-annotations.version>
 
         <!-- OSSRH release plugins -->
-	<central-publishing-maven-plugin.version>0.7.0</central-publishing-maven-plugin.version>
+        <central-publishing-maven-plugin.version>0.7.0</central-publishing-maven-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <versions-maven-plugin.version>2.8.1</versions-maven-plugin.version>
 
@@ -555,7 +555,8 @@
                                     <goal>sign</goal>
                                 </goals>
                                 <configuration>
-                                    <keyname>9272F1A5EF012E0ED15709CA7DA5608BAAD629A3</keyname>
+                                    <keyname>67674E54BE2E767B7CA662CE967A12E706D9CA9C</keyname>
+                                    <!--<keyname>9272F1A5EF012E0ED15709CA7DA5608BAAD629A3</keyname>-->
                                     <gpgArguments>
                                         <arg>--pinentry-mode</arg>
                                         <arg>loopback</arg>

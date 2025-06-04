@@ -141,7 +141,8 @@
                                     <goal>sign</goal>
                                 </goals>
                                 <configuration>
-                                    <keyname>9272F1A5EF012E0ED15709CA7DA5608BAAD629A3</keyname>
+                                    <keyname>67674E54BE2E767B7CA662CE967A12E706D9CA9C</keyname>
+                                    <!--<keyname>9272F1A5EF012E0ED15709CA7DA5608BAAD629A3</keyname>-->
                                     <gpgArguments>
                                         <arg>--pinentry-mode</arg>
                                         <arg>loopback</arg>
